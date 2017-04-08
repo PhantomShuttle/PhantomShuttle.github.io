@@ -1,0 +1,329 @@
+#header,
+#main,
+#footer,
+#blog,
+#snippet,
+#comments,
+#main .about,
+#footer .about,
+#blog .post,
+#footer .legal,
+#design .showcase {
+  width : auto;
+  padding : 0 15px;
+  height : auto;
+}
+
+#advertisement {
+  display : none;
+}
+
+#site-id a span {
+  float : none;
+  margin : 0 auto;
+  top : 18px;
+  left : 50%;
+  margin : 0 0 0 -124px;
+  padding : 0;
+}
+
+#nav { *zoom: 1; }
+#nav:before, #nav:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+#nav {
+  float : none;
+  padding-bottom: 15px;
+}
+
+#nav li {
+  float : none;
+  margin : 10px 0 0 0;
+}
+
+#nav li:first-child {
+  margin : 0;
+}
+
+#nav li a {
+  text-decoration : none;
+}
+
+#nav li a span {
+  text-indent : 0;
+  line-height : 1em;
+}
+
+#nav li a:hover span {
+  top : 0;
+  -webkit-transition : none;
+  -moz-transition : none;
+  -o-transition : none;
+  transition : none;
+  -webkit-transform : none;
+  -moz-transform : none;
+  -o-transform : none;
+  transform : none;
+}
+
+#nav li.projects a span,
+#nav li.design a span,
+#nav li.snippets a span,
+#nav li.blog a span,
+#nav li.contact a span {
+  height : auto;
+  margin : 0;
+  padding : 15px 0;
+  text-align :  center;
+  width : auto;
+  background : rgba( 0,0,0, .2);
+}
+
+#nav li.selected.projects a span,
+#nav li.selected.design a span,
+#nav li.selected.snippets a span,
+#nav li.selected.blog a span,
+#nav li.selected.contact a span {
+  background : rgba( 0,0,0, .4 );
+  color : #fff;
+}
+
+#main {
+  padding : 25px 0 40px 0;
+}
+
+#footer {
+  padding-top : 30px;
+}
+
+#footer .about {
+  padding : 15px 0 30px 0;
+  margin : 0 10px;
+  float : none;
+}
+
+#footer .legal {
+  text-align : center;
+  margin : 0;
+  padding-top : 20px;
+  padding-bottom : 30px;
+  float : none;
+}
+
+#footer .legal img {
+  display : none;
+}
+
+#footer .legal,
+#footer .legal a {
+  color : #888;
+}
+
+#social {
+  top : 0;
+  padding-top : 20px;
+}
+
+#posts {
+  margin : 0;
+  padding : 0;
+}
+
+#posts.inset {
+  background : none !important;
+  border : none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+#posts ul {
+  float : none;
+  width : auto;
+  padding : 0 0 15px 0;
+  margin : 0;
+}
+
+#posts ul { *zoom: 1; }
+#posts ul:before, #posts ul:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+#posts .post {
+  height : auto;
+  padding : 0 0 15px 0;
+  margin : 0 10px;
+}
+
+#posts .post a {
+  padding : 10px 10px 15px 10px;
+  display : block;
+}
+
+#posts .post img {
+  float : left;
+}
+
+#posts .post .info {
+  position : absolute;
+  width : auto;
+  padding : 0 20px 10px 65px;
+}
+
+#about {
+  padding : 450px 25px 50px 25px;
+  background-size : 300px 397px;
+  background-position : 50% 30px;
+}
+
+.list {
+
+}
+
+.list li {
+  width : auto;
+  height : auto;
+  padding : 0;
+  margin : 0 15px 0 0;
+}
+
+.list li a {
+  min-height : 100px;
+  margin-left : 85px;
+}
+
+#search {
+  margin-top : 20px;
+  width : 75%;
+}
+
+#projects .project {
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -o-transform: none !important;
+  transform: none !important;
+  margin : 30px 0 50px -125px;
+
+  float : none;
+
+  position : relative;
+  left : 50%;
+}
+
+.post {
+  padding-top : 40px;
+  padding-bottom : 70px;
+  width : auto !important;
+}
+
+.post h1,
+#design .showcase h1,
+#snippet h1 {
+  font-size : 32px;
+}
+
+.post .about {
+  padding-bottom : 50px;
+}
+
+.post .post {
+  padding-bottom : 50px;
+}
+
+.post .about .icon {
+  right : 10px;
+}
+
+#snippet .post {
+  float : none;
+}
+
+#snippet .post { *zoom: 1; }
+#snippet .post:before, #snippet .post:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+#snippet .about {
+  float : none;
+}
+
+.code-block {
+  width : auto !important;
+}
+
+iframe,
+.jspContainer,
+.jspPane {
+  width : auto !important;
+}
+
+#design .display {
+  width : auto;
+}
+
+#design .showcase {
+  padding-top : 30px;
+  padding-bottom: 40px;
+}
+
+#design .display img {
+  width : 320px;
+  max-width : 320px;
+}
+
+#design .meta > .posted,
+#design .meta > .tags {
+  float : none;
+  margin-right : 0 !important;
+  margin-bottom : 25px;
+}
+
+#design .meta .posted,
+#design .meta .tags { *zoom: 1; }
+#design .meta .posted:before, #design .meta .posted:after,
+#design .meta .tags:before, #design .meta .tags:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+#project .header {
+  width : auto;
+  margin : 25px 15px;
+  background-size : 600px 163px !important;
+  background-repeat : no-repeat !important;
+  padding : 180px 10px 10px 10px;
+
+  height : auto !important;
+}
+
+#project .header { *zoom: 1; }
+#project .header:before, #project .header:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+#project .header ul {
+  float : none;
+  top : 0;
+  padding : 0;
+}
+
+#project .header ul li {
+  float : none;
+  margin : 0;
+  padding : 0;
+}
+
+#design .side {
+  float : none;
+}
