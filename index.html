@@ -11,34 +11,67 @@
 <title>Phantom Shuttle</title>
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <style>
-h1
-{
-	background-color:#6495ed;
+body {
+	background-image: url('paper.gif');
+	background-color: #66ccff;
 }
-p
-{
-	background-color:#e0ffff;
+a:link {
+	text-decoration: none;
+}    /* unvisited link */
+a:visited {
+	text-decoration: none;
+} /* visited link */
+a:hover {
+	text-decoration: underline;
+}   /* mouse over link */
+a:active {
+	text-decoration: underline;
+}  /* selected link */
+.center {
+	text-align: center;
 }
-
-body
+.text-decoration {
+	text-decoration: none;
+}
+	
+.home {
+	color: aliceblue;
+	font-size:30px;
+	margin-right: 1rem;
+	font-weight: 100;
+	position:Absolute;
+	left:20px;
+	 top: 25px;
+	
+}
+	.img
 	{
-	
-	background-image:url('paper.gif');
-	background-color:#66ccff;
+		position:absolute;
+	right:200px;
+	top:100px;
+	z-index:-1;
 	}
-	
+	#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
 </style>
-<style type="text/css">
-
-</style>
+<style type="text/css"></style>
 </head>
 <body>
-<h1>欢迎页面</h1>
-<p>我的第一个段落。</p>
-<img src="images/11.jpg" width="258" height="211" />
+
+<div id="header">
+<h1>Phantom Shuttle</h1>
+<p ><b> <a class="home" href="index.html">Home</a></b></p>
+</div>
+
+
+
+<img class="img" src="images/11.jpg" width="258" height="211" />
 <p><a href="MyProject/HTMLPage1.html">本文本</a> 跳转到主页面。</p>
 <p><a href="MyProject/HTMLPage1.html" target="_blank">本文本</a> 在新页面打开主页面。</p>
-<p><a href="ddd/404.html" target="_blank">本文本</a> 在新页面打开404。</p>
-
+<p><a  href="ddd/404.html" target="_blank">本文本</a> 在新页面打开404。</p>
 </body>
 </html>
